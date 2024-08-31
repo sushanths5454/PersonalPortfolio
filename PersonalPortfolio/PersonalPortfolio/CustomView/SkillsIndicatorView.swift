@@ -19,6 +19,9 @@ struct SkillsIndicatorView: View {
                 GeometryReader { metric in
                     let color = randomColor()
                     Rectangle()
+                        .frame(width: 10, height: 10)
+                    
+                    Rectangle()
                         
                         
                         .frame(width: metric.size.width)
@@ -33,7 +36,7 @@ struct SkillsIndicatorView: View {
                 }
 
             }
-            .frame(width: UIScreen.main.bounds.width * 0.6, height: 9)
+            .frame(width: UIScreen.main.bounds.width * 0.6, height: 20)
             
             
         }.frame(width: UIScreen.main.bounds.width - 20, height: 10)

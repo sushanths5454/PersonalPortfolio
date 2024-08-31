@@ -31,13 +31,15 @@ struct ProjectActionSheet: View {
                 .font(.title)
                 .frame( alignment: .leading)
                 .padding(.leading, 10)
-            VStack(spacing: 0) {
+            
                     ForEach(Array(skills.keys), id: \.self) { skill in
-                        if let indicator = skills[skill] {
-                            SkillsIndicatorView(skill: skill, percentage: indicator)
+                        VStack(spacing: 0) {
+                            if let indicator = skills[skill] {
+                                SkillsIndicatorView(skill: skill, percentage: indicator)
+                            }
                         }
                     }
-            }
+            //}
         }//
         .padding(.leading, 20)
             .background(Color.white)  // Background color to make shadow visible

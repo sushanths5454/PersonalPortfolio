@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		84CFB78D2C7A2B59007FCD4E /* ProjectActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFB78C2C7A2B59007FCD4E /* ProjectActionSheet.swift */; };
 		84CFB78F2C7A3180007FCD4E /* SkillsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFB78E2C7A3180007FCD4E /* SkillsIndicatorView.swift */; };
+		84CFB7912C7B3B0D007FCD4E /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFB7902C7B3B0D007FCD4E /* BarGraph.swift */; };
+		84CFB7932C7B4D84007FCD4E /* BarGraphWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFB7922C7B4D84007FCD4E /* BarGraphWithAnimation.swift */; };
+		84CFB7952C7B5DBD007FCD4E /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFB7942C7B5DBD007FCD4E /* BarGraphView.swift */; };
 		84D7CCEF2C6E3F3000282923 /* PersonalPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7CCEE2C6E3F3000282923 /* PersonalPortfolioApp.swift */; };
 		84D7CCF12C6E3F3000282923 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7CCF02C6E3F3000282923 /* ContentView.swift */; };
 		84D7CCF32C6E3F3200282923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D7CCF22C6E3F3200282923 /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 /* Begin PBXFileReference section */
 		84CFB78C2C7A2B59007FCD4E /* ProjectActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectActionSheet.swift; sourceTree = "<group>"; };
 		84CFB78E2C7A3180007FCD4E /* SkillsIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsIndicatorView.swift; sourceTree = "<group>"; };
+		84CFB7902C7B3B0D007FCD4E /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		84CFB7922C7B4D84007FCD4E /* BarGraphWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphWithAnimation.swift; sourceTree = "<group>"; };
+		84CFB7942C7B5DBD007FCD4E /* BarGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
 		84D7CCEB2C6E3F3000282923 /* PersonalPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7CCEE2C6E3F3000282923 /* PersonalPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPortfolioApp.swift; sourceTree = "<group>"; };
 		84D7CCF02C6E3F3000282923 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +89,9 @@
 				84D7CD182C6E403600282923 /* HomePage.swift */,
 				84CFB78C2C7A2B59007FCD4E /* ProjectActionSheet.swift */,
 				84CFB78E2C7A3180007FCD4E /* SkillsIndicatorView.swift */,
+				84CFB7902C7B3B0D007FCD4E /* BarGraph.swift */,
+				84CFB7922C7B4D84007FCD4E /* BarGraphWithAnimation.swift */,
+				84CFB7942C7B5DBD007FCD4E /* BarGraphView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -274,11 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CFB7912C7B3B0D007FCD4E /* BarGraph.swift in Sources */,
 				84CFB78F2C7A3180007FCD4E /* SkillsIndicatorView.swift in Sources */,
 				84D7CCF12C6E3F3000282923 /* ContentView.swift in Sources */,
 				84CFB78D2C7A2B59007FCD4E /* ProjectActionSheet.swift in Sources */,
 				84D7CD192C6E403600282923 /* HomePage.swift in Sources */,
 				84D7CCEF2C6E3F3000282923 /* PersonalPortfolioApp.swift in Sources */,
+				84CFB7932C7B4D84007FCD4E /* BarGraphWithAnimation.swift in Sources */,
+				84CFB7952C7B5DBD007FCD4E /* BarGraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
